@@ -1,2 +1,6 @@
-# osticket-lab-installation
-This tutorial will show the prerequisites and installation steps for setting up osTicket, an open source ticketing system. 
+<p align="center">
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+</p>
+
+<h1>osTicket - Prerequisites and Installation</h1>
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
