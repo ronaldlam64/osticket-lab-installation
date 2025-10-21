@@ -35,3 +35,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 5. From the osTicket installtion files, install the rewrite module. The rewrite module is an add-on for IIS that lets you control and modify URLs as they come into your web server — without changing the actual files      or folders on your server. Rewrite Module matters for osTicket because it enables clean, user-friendly URLs and proper routing of requests.
 
    <img src="https://i.imgur.com/rxRk6TL.png" alt="rewrite module"/>
+
+6. Create the directory C:\PHP to place the PHP files.
+
+   Click This PC on the left in File Explorer -> Local Disk (C:) -> Right Click -> New - Folder - Rename folder as PHP
+
+   <img src="https://i.imgur.com/uoHNS7K.png" alt="create php folder"/>
+
+7. From the osTicket installation files, unzip the PHP 7.3.8 in the PHP folder created in step 7.
+
+   <img src="https://i.imgur.com/AjpqpLj.png" alt="unzip into php folder"/>
+
+8. From the osTicket installation files, install MySQL 5.5.62. MYSQL is the database app where helpdesk data is stored. 
+
+   <img src="https://i.imgur.com/Q7VMVoY.png" alt="install mysql"/>
+
+9. When MYSQL finishes installing, launch the configuration wizard. Click Standard Configuration -> Install as Windows Service -> Modify Security Settings -> Enter root password as root -> Execute
+
+   <img src="https://i.imgur.com/BhGHAL7.png" alt="configure mysql"/>
